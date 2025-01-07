@@ -30,8 +30,8 @@ jobs:
         env:
           # [Mandatory]
           # JFrog platform URL
-          # JF_URL: ${{ secrets.JF_URL }}
-          JF_URL: http://mill.jfrog.team:32768/
+          JF_URL: ${{ secrets.JF_URL }}
+          #JF_URL: http://mill.jfrog.team:32768/
 
           # [Mandatory if JF_USER and JF_PASSWORD are not provided]
           # JFrog access token with 'read' permissions on Xray service
